@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Correct Project Structure",
+      "setup": "",
+      "run": "./.csse6400/bin/validate_structure.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Clean Git Repository",
+      "setup": "",
+      "run": "./.csse6400/bin/clean_repository.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Correct Unit Tests",
+      "setup": "pip3 install pipenv",
+      "run": "./.csse6400/bin/unittest.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
